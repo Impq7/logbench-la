@@ -1,0 +1,23 @@
+{
+  "protocol_revision": "clean-trimodal-pilot-v1",
+  "model_requested": "gpt-5.5",
+  "gateway_base_url": "https://43.160.241.16/v1",
+  "other_backbones_enabled": false,
+  "historical_samples_allowed": false,
+  "scenarios": ["Code", "Terminal", "Workspace", "Slack", "Travel", "Banking"],
+  "smoke_sessions": 48,
+  "development_sessions": 192,
+  "counts_are_paper_requirements": false,
+  "preflight_before_smoke": true,
+  "quality_gate_before_training": true,
+  "quality_gate_before_scaling": true,
+  "pilot_detectors": ["PCA", "IsolationForest"],
+  "training_tier": "N",
+  "development_groups_eligible_for_final_test": false,
+  "split_unit": "source_task_lineage",
+  "split_proportions": [0.7, 0.1, 0.2],
+  "seed": 7,
+  "tracee_image_candidate": "docker.io/aquasec/tracee:0.19.0",
+  "gateway_key_name": "wxq2",
+  "remote_root": "/root/wxq/agent_benchmark/logbench-la-clean"
+}

@@ -1,0 +1,438 @@
+{
+  "name": "workspace-native-development-loop-v1",
+  "annotation_revision": "native-yaml-folded-exposure-v2",
+  "purpose": "Development-only Workspace collection; not six-scenario pilot acceptance or formal evaluation",
+  "eligible_for_formal_results": false,
+  "seed": 7,
+  "runtime_image": "logbench-native-dev:82f7911781dc78ba",
+  "source_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "benchmark_version": "v1",
+  "scope": "Workspace full AgentDojo v1 suite: 40 user tasks, each paired with its official get_injection_candidates vector set; random task + random payload sampling for diverse development collection",
+  "lineage_audit": "workspace: 40 user_task lineages (28 train / 4 validation / 8 test), split by seed 7",
+  "tasks": [
+    {
+      "task_id": "user_task_0",
+      "lineage": "workspace-user_task_0",
+      "vector": "calendar_networking_event_injection_email",
+      "vectors": [
+        "calendar_networking_event_injection_email"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_1",
+      "lineage": "workspace-user_task_1",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_2",
+      "lineage": "workspace-user_task_2",
+      "vector": "calendar_sports_and_yoga_class_injection",
+      "vectors": [
+        "calendar_sports_and_yoga_class_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_3",
+      "lineage": "workspace-user_task_3",
+      "vector": "calendar_dinner_with_clients_injection",
+      "vectors": [
+        "calendar_dinner_with_clients_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_4",
+      "lineage": "workspace-user_task_4",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection",
+        "calendar_project_kickoff_description"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_5",
+      "lineage": "workspace-user_task_5",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_6",
+      "lineage": "workspace-user_task_6",
+      "vector": "calendar_project_kickoff_description",
+      "vectors": [
+        "calendar_project_kickoff_description"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_7",
+      "lineage": "workspace-user_task_7",
+      "vector": "calendar_moving_event_reason_injection",
+      "vectors": [
+        "calendar_moving_event_reason_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_8",
+      "lineage": "workspace-user_task_8",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_9",
+      "lineage": "workspace-user_task_9",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_10",
+      "lineage": "workspace-user_task_10",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_11",
+      "lineage": "workspace-user_task_11",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_12",
+      "lineage": "workspace-user_task_12",
+      "vector": "calendar_project_kickoff_description",
+      "vectors": [
+        "calendar_project_kickoff_description"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_13",
+      "lineage": "workspace-user_task_13",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_14",
+      "lineage": "workspace-user_task_14",
+      "vector": "email_events_injection",
+      "vectors": [
+        "email_events_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_15",
+      "lineage": "workspace-user_task_15",
+      "vector": "email_events_injection",
+      "vectors": [
+        "email_events_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_16",
+      "lineage": "workspace-user_task_16",
+      "vector": "email_facebook_injection",
+      "vectors": [
+        "email_facebook_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_17",
+      "lineage": "workspace-user_task_17",
+      "vector": "email_hiking_injection",
+      "vectors": [
+        "email_hiking_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_18",
+      "lineage": "workspace-user_task_18",
+      "vector": "email_hiking_injection",
+      "vectors": [
+        "email_hiking_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_19",
+      "lineage": "workspace-user_task_19",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection",
+        "drive_feedback_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_20",
+      "lineage": "workspace-user_task_20",
+      "vector": "calendar_project_kickoff_description",
+      "vectors": [
+        "calendar_project_kickoff_description"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_21",
+      "lineage": "workspace-user_task_21",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection",
+        "calendar_project_kickoff_description"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_22",
+      "lineage": "workspace-user_task_22",
+      "vector": "email_password_reset_injection",
+      "vectors": [
+        "email_password_reset_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_23",
+      "lineage": "workspace-user_task_23",
+      "vector": "calendar_introductory_meeting_injection",
+      "vectors": [
+        "calendar_introductory_meeting_injection",
+        "email_password_reset_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_24",
+      "lineage": "workspace-user_task_24",
+      "vector": "email_events_injection",
+      "vectors": [
+        "email_events_injection",
+        "email_facebook_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_25",
+      "lineage": "workspace-user_task_25",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_26",
+      "lineage": "workspace-user_task_26",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection",
+        "drive_keywords_stuffing_injection",
+        "drive_recipe_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_27",
+      "lineage": "workspace-user_task_27",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection",
+        "drive_keywords_stuffing_injection",
+        "drive_recipe_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_28",
+      "lineage": "workspace-user_task_28",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_29",
+      "lineage": "workspace-user_task_29",
+      "vector": "drive_team_building_injection",
+      "vectors": [
+        "drive_team_building_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_30",
+      "lineage": "workspace-user_task_30",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_31",
+      "lineage": "workspace-user_task_31",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_32",
+      "lineage": "workspace-user_task_32",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_33",
+      "lineage": "workspace-user_task_33",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_34",
+      "lineage": "workspace-user_task_34",
+      "vector": "drive_recipe_injection",
+      "vectors": [
+        "drive_recipe_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_35",
+      "lineage": "workspace-user_task_35",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection",
+        "drive_keywords_stuffing_injection",
+        "drive_recipe_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_36",
+      "lineage": "workspace-user_task_36",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_37",
+      "lineage": "workspace-user_task_37",
+      "vector": "drive_keywords_stuffing_injection",
+      "vectors": [
+        "drive_keywords_stuffing_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_38",
+      "lineage": "workspace-user_task_38",
+      "vector": "drive_feedback_injection",
+      "vectors": [
+        "drive_feedback_injection",
+        "drive_keywords_stuffing_injection",
+        "drive_recipe_injection",
+        "drive_team_building_injection"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_39",
+      "lineage": "workspace-user_task_39",
+      "vector": "email_facebook_injection",
+      "vectors": [
+        "email_facebook_injection",
+        "email_password_reset_injection"
+      ],
+      "split": "test",
+      "siblings": []
+    }
+  ],
+  "training_gate": "Native semantic replay, isolated concurrent sessions, per-session offline T/E/N and label audits must pass before a development model fit",
+  "online_evaluation": "unsupported in this mini integration run",
+  "small_sample_limitations": "Single task development sample; no formal ASR/prevalence/performance claims",
+  "main_pilot_48_192_gate": "unchanged and pending"
+}

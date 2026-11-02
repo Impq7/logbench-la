@@ -1,0 +1,179 @@
+{
+  "name": "banking-native-development-loop-v2",
+  "annotation_revision": "native-yaml-folded-exposure-v2",
+  "previous_development_batch": "Five initial v1 sessions retained separately; exact-string exposure matching failed on native YAML folding. No models fitted on that version.",
+  "purpose": "Development-only training integration; not six-scenario pilot acceptance or formal evaluation",
+  "eligible_for_formal_results": false,
+  "seed": 7,
+  "runtime_image": "logbench-native-dev:82f7911781dc78ba",
+  "source_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "benchmark_version": "v1",
+  "scope": "Banking full AgentDojo v1 suite: 16 user tasks, each paired with its official get_injection_candidates vector set; random task + random payload sampling for diverse development collection",
+  "lineage_audit": "banking: 16 user_task lineages (11 train / 2 validation / 3 test), split by seed 7",
+  "tasks": [
+    {
+      "task_id": "user_task_0",
+      "lineage": "banking-user_task_0",
+      "vector": "injection_bill_text",
+      "vectors": [
+        "injection_bill_text"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_1",
+      "lineage": "banking-user_task_1",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_2",
+      "lineage": "banking-user_task_2",
+      "vector": "injection_landloard_notice",
+      "vectors": [
+        "injection_landloard_notice"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_3",
+      "lineage": "banking-user_task_3",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_4",
+      "lineage": "banking-user_task_4",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_5",
+      "lineage": "banking-user_task_5",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_6",
+      "lineage": "banking-user_task_6",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_7",
+      "lineage": "banking-user_task_7",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_8",
+      "lineage": "banking-user_task_8",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_9",
+      "lineage": "banking-user_task_9",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_10",
+      "lineage": "banking-user_task_10",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_11",
+      "lineage": "banking-user_task_11",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_12",
+      "lineage": "banking-user_task_12",
+      "vector": "injection_landloard_notice",
+      "vectors": [
+        "injection_landloard_notice"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_13",
+      "lineage": "banking-user_task_13",
+      "vector": "injection_address_change",
+      "vectors": [
+        "injection_address_change"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_14",
+      "lineage": "banking-user_task_14",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_15",
+      "lineage": "banking-user_task_15",
+      "vector": "injection_incoming_transaction",
+      "vectors": [
+        "injection_incoming_transaction"
+      ],
+      "split": "train",
+      "siblings": []
+    }
+  ],
+  "training_gate": "Native semantic replay, isolated concurrent sessions, per-session offline T/E/N and label audits must pass before a development model fit",
+  "online_evaluation": "unsupported in this mini integration run",
+  "small_sample_limitations": "One validation group and two test groups cannot support low-FPR claims, stable performance estimates or paper metrics. All groups permanently excluded from formal test.",
+  "main_pilot_48_192_gate": "unchanged and pending"
+}

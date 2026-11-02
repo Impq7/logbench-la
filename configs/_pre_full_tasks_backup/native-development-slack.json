@@ -1,0 +1,235 @@
+{
+  "name": "slack-native-development-loop-v1",
+  "annotation_revision": "native-yaml-folded-exposure-v2",
+  "purpose": "Development-only Slack collection; not six-scenario pilot acceptance or formal evaluation",
+  "eligible_for_formal_results": false,
+  "seed": 7,
+  "runtime_image": "logbench-native-dev:82f7911781dc78ba",
+  "source_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "benchmark_version": "v1",
+  "scope": "Slack full AgentDojo v1 suite: 21 user tasks, each paired with its official get_injection_candidates vector set; random task + random payload sampling for diverse development collection",
+  "lineage_audit": "slack: 21 user_task lineages (15 train / 2 validation / 4 test), split by seed 7",
+  "tasks": [
+    {
+      "task_id": "user_task_0",
+      "lineage": "slack-user_task_0",
+      "vector": "injection_web_0",
+      "vectors": [
+        "injection_web_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_1",
+      "lineage": "slack-user_task_1",
+      "vector": "injection_web_0",
+      "vectors": [
+        "injection_web_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_2",
+      "lineage": "slack-user_task_2",
+      "vector": "injection_dora_0",
+      "vectors": [
+        "injection_dora_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_3",
+      "lineage": "slack-user_task_3",
+      "vector": "injection_web_0",
+      "vectors": [
+        "injection_web_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_4",
+      "lineage": "slack-user_task_4",
+      "vector": "prompt_injection_eve_blog",
+      "vectors": [
+        "prompt_injection_eve_blog"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_5",
+      "lineage": "slack-user_task_5",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_6",
+      "lineage": "slack-user_task_6",
+      "vector": "prompt_injection_restaurant",
+      "vectors": [
+        "prompt_injection_restaurant"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_7",
+      "lineage": "slack-user_task_7",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_8",
+      "lineage": "slack-user_task_8",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_9",
+      "lineage": "slack-user_task_9",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_10",
+      "lineage": "slack-user_task_10",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_11",
+      "lineage": "slack-user_task_11",
+      "vector": "injection_dora_0",
+      "vectors": [
+        "injection_dora_0"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_12",
+      "lineage": "slack-user_task_12",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_13",
+      "lineage": "slack-user_task_13",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_14",
+      "lineage": "slack-user_task_14",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_15",
+      "lineage": "slack-user_task_15",
+      "vector": "injection_web_0",
+      "vectors": [
+        "injection_web_0",
+        "prompt_injection_restaurant"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_16",
+      "lineage": "slack-user_task_16",
+      "vector": "injection_dora_0",
+      "vectors": [
+        "injection_dora_0",
+        "prompt_injection_eve_blog"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_17",
+      "lineage": "slack-user_task_17",
+      "vector": "injection_dora_0",
+      "vectors": [
+        "injection_dora_0",
+        "injection_web_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_18",
+      "lineage": "slack-user_task_18",
+      "vector": "injection_web_0",
+      "vectors": [
+        "injection_web_0",
+        "prompt_injection_channel"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_19",
+      "lineage": "slack-user_task_19",
+      "vector": "prompt_injection_channel",
+      "vectors": [
+        "prompt_injection_channel"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_20",
+      "lineage": "slack-user_task_20",
+      "vector": "injection_dora_0",
+      "vectors": [
+        "injection_dora_0",
+        "injection_web_0",
+        "prompt_injection_eve_blog",
+        "prompt_injection_restaurant"
+      ],
+      "split": "train",
+      "siblings": []
+    }
+  ],
+  "training_gate": "Native semantic replay, isolated concurrent sessions, per-session offline T/E/N and label audits must pass before a development model fit",
+  "online_evaluation": "unsupported in this mini integration run",
+  "small_sample_limitations": "Single task development sample; no formal ASR/prevalence/performance claims",
+  "main_pilot_48_192_gate": "unchanged and pending"
+}

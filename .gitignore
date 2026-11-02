@@ -1,0 +1,18 @@
+# Secrets (DPAPI-encrypted key material)
+DataSet/.private/
+
+# Data, experiment artifacts, temp files, vendored third-party sources
+DataSet/
+experiment/
+tmp/
+third_party/
+
+# Runtime & tooling state
+.runtime/
+.workbuddy/
+__pycache__/
+*.pyc
+
+# Docs (not pushed to remote)
+*.md
+*.pdf

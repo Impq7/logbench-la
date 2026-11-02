@@ -1,0 +1,247 @@
+{
+  "name": "travel-native-development-loop-v1",
+  "annotation_revision": "native-yaml-folded-exposure-v2",
+  "purpose": "Development-only Travel collection; not six-scenario pilot acceptance or formal evaluation",
+  "eligible_for_formal_results": false,
+  "seed": 7,
+  "runtime_image": "logbench-native-dev:82f7911781dc78ba",
+  "source_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "benchmark_version": "v1",
+  "scope": "Travel full AgentDojo v1 suite: 20 user tasks, each paired with its official get_injection_candidates vector set; random task + random payload sampling for diverse development collection",
+  "lineage_audit": "travel: 20 user_task lineages (14 train / 2 validation / 4 test), split by seed 7",
+  "tasks": [
+    {
+      "task_id": "user_task_0",
+      "lineage": "travel-user_task_0",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_1",
+      "lineage": "travel-user_task_1",
+      "vector": "injection_hotels_1",
+      "vectors": [
+        "injection_hotels_1"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_2",
+      "lineage": "travel-user_task_2",
+      "vector": "injection_restaurants_1",
+      "vectors": [
+        "injection_restaurants_1",
+        "injection_restaurants_2",
+        "injection_restaurants_3"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_3",
+      "lineage": "travel-user_task_3",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0",
+        "injection_hotels_2",
+        "injection_hotels_3"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_4",
+      "lineage": "travel-user_task_4",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0",
+        "injection_hotels_3"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_5",
+      "lineage": "travel-user_task_5",
+      "vector": "injection_hotels_4",
+      "vectors": [
+        "injection_hotels_4",
+        "injection_hotels_5"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_6",
+      "lineage": "travel-user_task_6",
+      "vector": "injection_hotels_2",
+      "vectors": [
+        "injection_hotels_2",
+        "injection_hotels_5"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_7",
+      "lineage": "travel-user_task_7",
+      "vector": "injection_restaurants_0",
+      "vectors": [
+        "injection_restaurants_0"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_8",
+      "lineage": "travel-user_task_8",
+      "vector": "injection_restaurants_0",
+      "vectors": [
+        "injection_restaurants_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_9",
+      "lineage": "travel-user_task_9",
+      "vector": "injection_restaurants_1",
+      "vectors": [
+        "injection_restaurants_1"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_10",
+      "lineage": "travel-user_task_10",
+      "vector": "injection_restaurants_2",
+      "vectors": [
+        "injection_restaurants_2"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_11",
+      "lineage": "travel-user_task_11",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0",
+        "injection_hotels_3",
+        "injection_restaurants_1"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_12",
+      "lineage": "travel-user_task_12",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0",
+        "injection_hotels_2",
+        "injection_hotels_3",
+        "injection_restaurants_1",
+        "injection_restaurants_3"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_13",
+      "lineage": "travel-user_task_13",
+      "vector": "injection_cars_0",
+      "vectors": [
+        "injection_cars_0"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_14",
+      "lineage": "travel-user_task_14",
+      "vector": "injection_cars_1",
+      "vectors": [
+        "injection_cars_1"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_15",
+      "lineage": "travel-user_task_15",
+      "vector": "injection_cars_0",
+      "vectors": [
+        "injection_cars_0",
+        "injection_cars_1"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_16",
+      "lineage": "travel-user_task_16",
+      "vector": "injection_cars_2",
+      "vectors": [
+        "injection_cars_2"
+      ],
+      "split": "train",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_17",
+      "lineage": "travel-user_task_17",
+      "vector": "injection_hotels_0",
+      "vectors": [
+        "injection_hotels_0",
+        "injection_hotels_2",
+        "injection_hotels_3",
+        "injection_restaurants_0",
+        "injection_restaurants_1",
+        "injection_restaurants_2",
+        "injection_restaurants_3"
+      ],
+      "split": "validation",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_18",
+      "lineage": "travel-user_task_18",
+      "vector": "injection_restaurants_2",
+      "vectors": [
+        "injection_restaurants_2"
+      ],
+      "split": "test",
+      "siblings": []
+    },
+    {
+      "task_id": "user_task_19",
+      "lineage": "travel-user_task_19",
+      "vector": "injection_cars_2",
+      "vectors": [
+        "injection_cars_2",
+        "injection_hotels_0",
+        "injection_hotels_2",
+        "injection_hotels_3",
+        "injection_hotels_4",
+        "injection_hotels_5",
+        "injection_restaurants_0",
+        "injection_restaurants_1",
+        "injection_restaurants_2",
+        "injection_restaurants_3"
+      ],
+      "split": "train",
+      "siblings": []
+    }
+  ],
+  "training_gate": "Native semantic replay, isolated concurrent sessions, per-session offline T/E/N and label audits must pass before a development model fit",
+  "online_evaluation": "unsupported in this mini integration run",
+  "small_sample_limitations": "Single task development sample; no formal ASR/prevalence/performance claims",
+  "main_pilot_48_192_gate": "unchanged and pending"
+}
